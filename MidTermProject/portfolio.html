@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Developing The Future of The Web</title>
+        <link rel="icon" type="image/x-icon" href="images/headshot.png">
+        <link rel="stylesheet" type="text/css" href="css/index.css">
+        <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+    </head>
+    <body class="portfolio">
+        <div class="bottom-half">
+            <section class="menu-wrap">
+                <input type="checkbox" id="mobile_menu">  
+                <label for="mobile_menu" class="menu-icon">☰</label> 
+                <nav>
+                    <ul>
+                        <li><a href="index.html">home</a></li>
+                        <li><a href="about.html">about me</a></li>
+                        <li><a href="portfolio.html">portfolio</a></li>
+                        <li><a href="./experience.html">experience</a></li>
+                        <li><a href="contact.html">contact me</a></li>
+                    </ul>
+                </nav>
+            </section>
+            <header>
+                <div class="header" style="background: url(images/header.jpg) no-repeat center center fixed;    background-size: cover; height: 19rem;">
+                </div>
+            </header>
+            <h2 class="title">Please take some time to explore my projects.</h2>
+            <hr class="title-line">
+            <main class="container">
+                <div class="project" id="project1">
+                    <img src="images/scalefluidly.png" alt="portfolio project">
+                    <h2>scalefluidly unified commerce platform</h2>
+                    <p class="info">ScaleFluidly is a CommerceCX business application, which I personally developed their website for.</p>
+                    <p class="see-more"><a target="-blank" class="button" href="https://scalefluidly.com/">See More</a></p>
+                </div>
+                <div class="project" id="project2">
+                    <img src="images/biltmore.png" alt="portfolio project">
+                    <h2>biltmore mansion digital tour guide</h2>
+                    <p class="info">This is a school project that I did on creating a virtual tour guide for the Biltmore Mansion.</p>
+                    <p class="see-more"><a target="-blank" class="button" href="https://wcet.waketech.edu/jchall2/WEB125/BitlmoreBootstrap/Biltmore.html">See More</a></p>
+                </div>
+                <div class="project" id="project3">
+                    <img src="images/account-register.png" alt="portfolio project">
+                    <h2>guitar shop account registry</h2>
+                    <p class="info">This is a school project that I did on creating basic PHP application for an account creation register</p>
+                    <p class="see-more"><a target="-blank" class="button" href="https://wcet.waketech.edu/jchall2/WEB182/ch15_register_short/index.php">See More</a></p>
+                </div>
+            </main>
+            <footer>
+                <ul>
+                    <li><a href="https://www.linkedin.com/in/jonathan-hall-jch47/" target="blank">LinkedIn</a></li>
+                    <li><a href="https://github.com/jhall4345" target="blank">Github</a></li>
+                    <li><a href ="mailto:jchall1217@msn.com">email me</a></li>
+                    <li><a href="tel:6103925253">Phone</a></li>
+                </ul>
+                <hr>
+                <p>Copyright © <span id="currentYear"></span>. All rights reserved.</p>
+            </footer>
+        </div>
+        <script>
+            const currentYear = new Date().getFullYear();
+            document.getElementById('currentYear').textContent = currentYear;
+          </script>
+        </body> 
+</html>
